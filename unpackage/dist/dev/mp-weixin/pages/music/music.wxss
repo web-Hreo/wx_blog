@@ -1,0 +1,58 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.music {
+  width: 710rpx;
+  margin: 0 20rpx;
+  padding-bottom: 40rpx;
+}
+.music .music-title {
+  padding: 20rpx 0;
+}
+.music .music-title .title-text {
+  font-size: 34rpx;
+  font-weight: bold;
+  color: #000;
+}
+.music .music-title .title-more {
+  font-size: 24rpx;
+  color: #cccccc;
+}
+.music .music-title .title-more .u-icon {
+  padding-left: 10rpx;
+}
+.music .music-hotList {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 633rpx;
+}
+.music .music-hotList .music-item {
+  width: 225rpx;
+  margin-right: 19rpx;
+  margin-bottom: 19rpx;
+}
+.music .music-hotList .music-item:nth-child(3n) {
+  margin-right: 0;
+}
+.music .music-hotList .music-item image {
+  width: 225rpx;
+  height: 225rpx;
+  border-radius: 20rpx;
+  overflow: hidden;
+}
+.music .music-hotList .music-item .item-songName {
+  width: 225rpx;
+  font-size: 26rpx;
+  color: #000;
+}
+.music .music-hotList .music-item .songName2 {
+  height: 70rpx;
+}
+.music .music-hotList .music-item .item-songer {
+  font-size: 24rpx;
+  color: #999;
+}
+

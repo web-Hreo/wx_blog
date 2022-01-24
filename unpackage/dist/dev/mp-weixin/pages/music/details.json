@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "音乐详情",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "navbar": "/components/navbar/navbar"
+  }
+}

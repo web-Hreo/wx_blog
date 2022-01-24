@@ -1,0 +1,11 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["uni_modules/uview-ui/components/u-index-anchor/u-index-anchor"],{1136:function(n,t,u){"use strict";u.r(t);var e=u(1137),i=u.n(e);for(var r in e)"default"!==r&&function(n){u.d(t,n,(function(){return e[n]}))}(r);t["default"]=i.a},1137:function(n,t,u){"use strict";(function(n){Object.defineProperty(t,"__esModule",{value:!0}),t.default=void 0;var e=i(u(898));function i(n){return n&&n.__esModule?n:{default:n}}var r={name:"u-index-anchor",mixins:[n.$u.mpMixin,n.$u.mixin,e.default],data:function(){return{}},mounted:function(){this.init()},methods:{init:function(){var t=n.$u.$parent.call(this,"u-index-list");if(!t)return n.$u.error("u-index-anchor必须要搭配u-index-list组件使用");t.anchors.push(this);var u=n.$u.$parent.call(this,"u-index-item");if(!u)return n.$u.error("u-index-anchor必须要搭配u-index-item组件使用");u.id=this.text.charCodeAt(0)}}};t.default=r}).call(this,u(0)["default"])},1138:function(n,t,u){},1280:function(n,t,u){"use strict";var e=u(1138),i=u.n(e);i.a},1386:function(n,t,u){"use strict";var e;u.d(t,"b",(function(){return i})),u.d(t,"c",(function(){return r})),u.d(t,"a",(function(){return e}));var i=function(){var n=this,t=n.$createElement,u=(n._self._c,n.$u.addUnit(n.height)),e=n.$u.addUnit(n.size);n.$mp.data=Object.assign({},{$root:{g0:u,g1:e}})},r=[];i._withStripped=!0},1486:function(n,t,u){"use strict";u.r(t);var e=u(1386),i=u(1136);for(var r in i)"default"!==r&&function(n){u.d(t,n,(function(){return i[n]}))}(r);u(1280);var a,o=u(1),c=Object(o["a"])(i["default"],e["b"],e["c"],!1,null,"2e330ae9",null,!1,e["a"],a);c.options.__file="uni_modules/uview-ui/components/u-index-anchor/u-index-anchor.vue",t["default"]=c.exports}}]);
+//# sourceMappingURL=../../../../../.sourcemap/mp-weixin/uni_modules/uview-ui/components/u-index-anchor/u-index-anchor.js.map
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'uni_modules/uview-ui/components/u-index-anchor/u-index-anchor-create-component',
+    {
+        'uni_modules/uview-ui/components/u-index-anchor/u-index-anchor-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('0')['createComponent'](__webpack_require__(1486))
+        })
+    },
+    [['uni_modules/uview-ui/components/u-index-anchor/u-index-anchor-create-component']]
+]);

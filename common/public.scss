@@ -1,0 +1,311 @@
+$theme: #1abc9c;
+
+view,text{
+  letter-spacing: 2rrpx;
+}
+.fbc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fac {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.fcc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fb {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fc {
+  display: flex;
+  align-items: center;
+}
+
+.fe {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.fec {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+//默认居中显示的背景图片
+.def-bg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+//安全区域
+.ipX {
+  padding-bottom: constant(safe-area-inset-bottom) !important;
+  padding-bottom: env(safe-area-inset-bottom) !important;
+}
+.ipX_m{
+  margin-bottom: constant(safe-area-inset-bottom) !important;
+  margin-bottom: env(safe-area-inset-bottom) !important;
+}
+
+.p-5 {
+  padding: 5rpx;
+}
+
+.p-10 {
+  padding: 10rpx;
+}
+
+.p-15 {
+  padding: 15rpx;
+}
+
+.p-20 {
+  padding: 20rpx;
+}
+
+.p-25 {
+  padding: 25rpx;
+}
+
+.p-30 {
+  padding: 30rpx;
+}
+
+.p-35 {
+  padding: 35rpx;
+}
+
+.p-40 {
+  padding: 40rpx;
+}
+
+.p-45 {
+  padding: 45rpx;
+}
+
+.pt-5 {
+  padding-top: 5rpx;
+}
+
+.pt-10 {
+  padding-top: 10rpx;
+}
+
+.pt-15 {
+  padding-top: 15rpx;
+}
+
+.pt-20 {
+  padding-top: 20rpx;
+}
+
+.pt-25 {
+  padding-top: 25rpx;
+}
+
+.pt-30 {
+  padding-top: 30rpx;
+}
+
+.pt-35 {
+  padding-top: 35rpx;
+}
+
+.pt-40 {
+  padding-top: 40rpx;
+}
+
+.pt-45 {
+  padding-top: 45rpx;
+}
+
+.pt-50 {
+  padding-top: 50rpx;
+}
+
+.pt-70 {
+  padding-top: 70rpx;
+}
+
+.pl-5 {
+  padding-left: 5rpx;
+}
+
+.pl-10 {
+  padding-left: 10rpx;
+}
+
+.pl-15 {
+  padding-left: 15rpx;
+}
+
+.pl-20 {
+  padding-left: 20rpx;
+}
+
+.pl-25 {
+  padding-left: 25rpx;
+}
+
+.pl-30 {
+  padding-left: 30rpx;
+}
+
+.pl-35 {
+  padding-left: 35rpx;
+}
+
+.pl-40 {
+  padding-left: 40rpx;
+}
+
+.pl-45 {
+  padding-left: 45rpx;
+}
+
+.pl-50 {
+  padding-left: 50rpx;
+}
+
+.pl-70 {
+  padding-left: 70rpx;
+}
+
+.mt-5 {
+  margin-top: 5rpx;
+}
+
+.mt-10 {
+  margin-top: 10rpx;
+}
+
+.mt-15 {
+  margin-top: 15rpx;
+}
+
+.mt-20 {
+  margin-top: 20rpx;
+}
+
+.mt-25 {
+  margin-top: 25rpx;
+}
+
+.mt-30 {
+  margin-top: 30rpx;
+}
+
+.mt-35 {
+  margin-top: 35rpx;
+}
+
+.mt-40 {
+  margin-top: 40rpx;
+}
+
+.mt-45 {
+  margin-top: 45rpx;
+}
+
+.mt-50 {
+  margin-top: 50rpx;
+}
+
+.mb-5 {
+  margin-bottom: 5rpx;
+}
+
+.mb-10 {
+  margin-bottom: 20rpx;
+}
+
+.mb-15 {
+  margin-bottom: 30rpx;
+}
+
+.mb-20 {
+  margin-bottom: 40rpx;
+}
+
+.mb-25 {
+  margin-bottom: 50rpx;
+}
+
+.mb-30 {
+  margin-bottom: 60rpx;
+}
+
+.mb-35 {
+  margin-bottom: 70rpx;
+}
+
+.mb-40 {
+  margin-bottom: 80rpx;
+}
+
+.mb-45 {
+  margin-bottom: 90rpx;
+}
+
+.ml-10 {
+  margin-left: 20rpx;
+}
+
+.neh {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  word-break: break-all;
+}
+
+.clear {
+  clear: both;
+}
+
+.tac {
+  text-align: center;
+}
+
+.ellipsis-1 {
+  text-overflow: -o-ellipsis-lastline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: box;
+  -webkit-line-clamp: 1;
+  line-clamp: 1;
+  word-break: break-all;
+  box-orient: vertical;
+}
+
+.ellipsis-2 {
+  text-overflow: -o-ellipsis-lastline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  word-break: break-all;
+  box-orient: vertical;
+}
+
+.ellipsis-3 {
+  text-overflow: -o-ellipsis-lastline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: box;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  word-break: break-all;
+  box-orient: vertical;
+}
+

@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "歌单列表",
+  "navigationStyle": "custom",
+  "backgroundColor": "#f1f1f1",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "navbar": "/components/navbar/navbar"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "首页",
+  "backgroundColor": "#f1f1f1",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "u-tabs": "/uni_modules/uview-ui/components/u-tabs/u-tabs",
+    "u-skeleton": "/uni_modules/uview-ui/components/u-skeleton/u-skeleton"
+  }
+}

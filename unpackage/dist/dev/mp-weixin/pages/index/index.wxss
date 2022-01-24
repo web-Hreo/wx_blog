@@ -1,0 +1,80 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+page {
+  background-color: #f1f1f1;
+}
+.tab {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80rpx;
+  z-index: 10;
+}
+.tab .u-tabs {
+  background-color: #ffffff;
+}
+.cont {
+  width: 710rpx;
+  margin: 110rpx 20rpx 0;
+}
+.cont .cont-user image {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+}
+.cont .cont-user .user-info {
+  padding-left: 20rpx;
+}
+.cont .cont-user .user-info .name {
+  font-size: 32rpx;
+  color: #000;
+}
+.cont .cont-user .user-info .date {
+  font-size: 22rpx;
+  color: #999;
+  padding-top: 10rpx;
+}
+.index-article .article-item {
+  border-radius: 15rpx;
+  width: 650rpx;
+  background-color: #fff;
+  padding: 30rpx;
+  border-radius: 15rpx;
+  color: #fff;
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  font-size: 26rpx;
+  margin-top: 20rpx;
+}
+.index-article .article-item .item-banner {
+  width: 100%;
+  height: 300rpx;
+  border-radius: 10rpx;
+}
+.index-article .article-item .item-title {
+  padding-top: 20rpx;
+  font-size: 30rpx;
+  color: #333;
+}
+.index-article .article-item .item-tag {
+  margin-top: 10rpx;
+  padding: 10rpx 20rpx;
+  background-color: #1abc9c;
+  border-radius: 40rpx;
+  display: inline-block;
+  color: #fff;
+  font-size: 20rpx;
+}
+.index-article .article-item .item-date, .index-article .article-item .item-view {
+  font-size: 22rpx;
+  color: #999;
+  padding-top: 10rpx;
+  padding-left: 20rpx;
+}
+

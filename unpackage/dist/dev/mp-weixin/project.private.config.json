@@ -1,0 +1,42 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "文章详情",
+          "pathName": "pages/index/articleDetails",
+          "query": "id=61b5c4b43602300b2f2ee008",
+          "scene": null
+        },
+        {
+          "name": "音乐",
+          "pathName": "pages/music/music",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "音乐详情",
+          "pathName": "pages/music/details",
+          "query": "id=1908081370",
+          "scene": null
+        },
+        {
+          "name": "歌单详情",
+          "pathName": "pages/music/songList",
+          "query": "id=3046405338",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

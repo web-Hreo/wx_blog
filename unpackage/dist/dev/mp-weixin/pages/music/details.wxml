@@ -1,0 +1,1 @@
+<view class="details def-bg"><navbar vue-id="63e1be37-1" title="{{songInfo.name}}" bind:__l="__l"></navbar><view class="details-bg def-bg" style="{{'background-image:'+('url('+songInfo.picUrl+')')+';'}}"></view><image class="details-banner" src="{{songInfo.picUrl}}" mode></image></view>

@@ -1,0 +1,88 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.articleDetails {
+  width: 95%;
+  margin: 0 2.5%;
+  overflow: hidden;
+}
+.articleDetails ._article {
+  padding-bottom: 50px;
+}
+.articleDetails ._article ._a {
+  word-break: break-all;
+  color: blue;
+  font-size: 14px;
+}
+.articleDetails ._article ._p {
+  padding: 3px 0;
+  line-height: 30px;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+@media only screen and (max-width: 766.99px) {
+.articleDetails ._article ._p {
+    font-size: 13px;
+}
+}
+.articleDetails ._article ._h2 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #000;
+  margin-top: 5px;
+}
+@media only screen and (max-width: 766.99px) {
+.articleDetails ._article ._h2 {
+    font-size: 16px;
+}
+}
+.articleDetails ._article ._ul {
+  list-style-type: disc;
+}
+.articleDetails ._article ._ul ._li {
+  margin-left: 20px;
+  padding: 5px 0;
+}
+.articleDetails ._article ._img {
+  margin: 5px 10%;
+  width: 80%;
+}
+.articleDetails ._article ._code, .articleDetails ._article ._pre {
+  overflow-x: auto;
+  display: block;
+  background-color: #000;
+  font-family: Consolas,Menlo,Monaco,"lucida console","Liberation Mono","Courier New","andale mono",monospaceX,monospace,sans-serif;
+}
+.articleDetails .copyright {
+  word-break: break-all;
+  background-color: #F5F5F5;
+  box-sizing: border-box;
+  border-left: 4px solid #797979;
+  border-radius: 4px;
+  position: relative;
+  width: 100%;
+  padding: 16px;
+  transition: all .28s ease;
+  -moz-transition: all .28s ease;
+  -webkit-transition: all .28s ease;
+  -o-transition: all .28s ease;
+}
+@media only screen and (max-width: 766.99px) {
+.articleDetails .copyright {
+    font-size: 12px;
+}
+}
+.articleDetails .copyright ._a {
+  word-break: break-all;
+  color: #4141ff;
+}
+.articleDetails ._p ._code {
+  display: inline-flex !important;
+}
+.articleDetails ._p ._pre ._code {
+  display: block !important;
+}
+

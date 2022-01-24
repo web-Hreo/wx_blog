@@ -1,0 +1,1 @@
+<view class="articleDetails"><view>18 个你需要知道的 JavaScript 优化技巧</view><rich-text nodes="{{info.cont}}"></rich-text></view>

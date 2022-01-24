@@ -1,0 +1,1 @@
+<view class="songList"><navbar vue-id="0b5a7990-1" bind:__l="__l" vue-slots="{{['default']}}">歌单详情</navbar>11111111111</view>
